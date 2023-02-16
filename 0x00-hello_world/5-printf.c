@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -
+ * main - a commard to print using printf
  * return: 0 (success)
  *
  */
