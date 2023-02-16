@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * main - a commard to print using printf
+ * main - entry point
  * return: 0 (success)
- *
  */
 int main(void)
 {
