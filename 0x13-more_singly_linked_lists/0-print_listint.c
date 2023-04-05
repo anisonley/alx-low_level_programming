@@ -6,17 +6,15 @@
  *
  * Return: the number of nodes printed
  */
-size_t print_list(const list_t *h)
+size_t print_listint(const listint_t *h)
 {
-size_t a = 0;
-while (h)
+	size_t num = 0;
+
+	while (h)
 {
-if (!h->str)
-printf("[0] (nil)\n");
-else
-printf("[%u] %a\n", h->len, h->str);
-h = h->next;
-a++;
+	printf("%d\n", h->n);
+	num++;
+	h = h->next;
 }
-return (a);
+	return (num);
 }
